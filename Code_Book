@@ -1,1 +1,17 @@
-
+- Download the zip file from coursera website
+  Using 'download.file()' to download the file.
+- unzip the file and store in the R_DATA folder
+  Using 'unzip()' to unzip the zip file
+- read/load the data to Rstudio
+  Using read.table() to load the data to R
+- merge the data from train file and test file separately after that combine both file together as fullData set.
+  Using 'cbind()' to combine train,test data together and 'rbind()' both data set in 1.
+- Extracts only the measurements on the mean and standard deviation for each measurement.
+  Using 'grep()' function to find the indexes with "mean()" and "sd()".
+  select all relevant columns and set the columns name using the selected features name.
+- Uses descriptive activity names to name the activities in the data set
+  Using 'factor()' to replace the numbers to activity names.
+- Make the fieldName/variable name more descriptive
+  Using 'gsub()' to make the name more descriptive.
+- Tidy data set with the average of each variable for each activity and each subject
+  -Using 'group_by()' and 'summarise_each()' for each activity and each subject.
