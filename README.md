@@ -9,10 +9,10 @@ This project is demostrate our ability to collect, work with, and clean a data s
 5)From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 This respository consist of 4 file which is :
-Code Book - To explain how the script work.
-Read Me - simple describe about the project.
-run_analysis.R - Code for the project.
-TidyData - Result of the project.
+1) Code Book - To explain how the script work.
+2) Read Me - simple describe about the project.
+3) run_analysis.R - Code for the project.
+4) TidyData.txt - Result of the project.
 
 
 
