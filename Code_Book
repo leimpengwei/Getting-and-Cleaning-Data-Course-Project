@@ -14,4 +14,4 @@
 - Make the fieldName/variable name more descriptive
   Using 'gsub()' to make the name more descriptive.
 - Tidy data set with the average of each variable for each activity and each subject
-  -Using 'group_by()' and 'summarise_each()' for each activity and each subject.
+  Using 'group_by()' and 'summarise_each()' for each activity and each subject.
